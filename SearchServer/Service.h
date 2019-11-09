@@ -76,4 +76,5 @@ private:
 	boost::asio::streambuf m_request;
 
 	SearchEngine engine;
+	HttpParser parser;
 };
