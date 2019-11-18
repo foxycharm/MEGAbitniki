@@ -7,8 +7,8 @@ class Token_dictionary {
 
 	Token_dictionary();	
 public:
-	void add_item(string token, uint url_id);
+	void add_item(std::string token, uint url_id);
 	size_t get_item();
-	void parse(string text, uint url_id);
-	void delete_item(string token);
+	void parse(std::string text, uint url_id);
+	void delete_item(std::string token);
 };
